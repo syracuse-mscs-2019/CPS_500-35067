@@ -6,6 +6,7 @@
 + Global variables exist for length of program
 ------------------------------------------------*/
 
+char dne;//exists in BSS segment (uninitialized)
 int arr[] = {34, 23, 12, 22, 11, 64, 90};//exists in DATA segment
 const int N = sizeof(arr)/sizeof(arr[0]);//exists in DATA segment
 
